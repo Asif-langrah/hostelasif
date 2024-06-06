@@ -9,3 +9,6 @@ def asif():
 def asif():
     chatgpt ={"im duffer"}
     return {"chatgpt"}
+@app.post("/")
+def asif(management,university,iba):
+    return {"key1":management, "key2":university, "key3":iba},  
